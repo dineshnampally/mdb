@@ -1,14 +1,62 @@
-.movie__list {
-    padding: 0 3rem 3rem 3rem;
+
+.container {
+    padding: 2rem; 
+    margin-top: 5vh;
 }
 
-.list__title {
-font-size: 1.75rem;
-margin:  2.5rem;
+
+@media (min-width: 768px) {
+    .container {
+        padding: 3rem; 
+        margin-top: 30vh; 
+    }
+
+    .custom-carousel .slide {
+        height: 50vh; 
+    }
 }
 
-.list__cards {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 3rem; 
+        margin-top: 80vh;
+    }
+
+    .custom-carousel .slide {
+        height: 70vh; 
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .container {
+        padding: 3rem; 
+        margin-top: 80vh; 
+    }
+
+    .custom-carousel .slide {
+        height: 80vh; 
+    }
+}
+
+
+.align-to-header {
+    margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+    .custom-carousel .slide {
+        height: 50vh; 
+    }
+    .container {
+        margin-top: 5vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-carousel .slide {
+        height: 40vh; 
+    }
 }
